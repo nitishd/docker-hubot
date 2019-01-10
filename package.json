@@ -1,0 +1,21 @@
+{
+  "name": "huber",
+  "version": "1.0.0",
+  "description": "Docker build for Hubot",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:nitishd/docker-hubot.git"
+  },
+  "author": "Nitish",
+  "license": "MIT",
+  "dependencies": {
+    "hubot": "^3.1.1",
+    "hubot-diagnostics": "^1.0.0",
+    "hubot-help": "^1.0.1",
+    "hubot-jenkins-enhanced": "^1.2.2",
+    "hubot-redis-brain": "^1.0.0",
+    "hubot-schedule": "^0.6.2",
+    "hubot-slack": "^4.6.0"
+  }
+}
