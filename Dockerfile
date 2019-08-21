@@ -19,7 +19,7 @@ RUN adduser -h /hubot -s /bin/bash -S hubot
 USER  hubot
 WORKDIR /hubot
 
-# Install hubot
+# Install hubot with custom config
 RUN yo hubot --adapter=slack --owner="$HUBOT_OWNER" --name="$HUBOT_NAME" --description="$HUBOT_DESCRIPTION" --defaults
 
 COPY package.json package.json
